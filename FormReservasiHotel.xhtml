@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Mint Marble Resort - Form Reservasi</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="icon.jpg" alt="Logo Mint Marble Resort" class="logo" />
+        <div class="title">
+          <h1>Budi Green House</h1>
+          <p>Luxury. Serenity. Perfection.</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <h2>Reservation Hotel Room</h2>
+
+        <form action="" method="post">
+          <fieldset>
+            <legend>Personal Date</legend>
+            <label>Name:</label>
+            <input type="text" name="nama" />
+
+            <label>Gender:</label>
+            <input type="text" name="gender" />
+
+            <label>Email:</label>
+            <input type="text" name="email" />
+
+            <label>Telp Number:</label>
+            <input type="text" name="telp" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Reservation Room Form</legend>
+            <label>Reservator Name:</label>
+            <input type="text" name="reservator" />
+
+            <label>Booking Date:</label>
+            <input type="date" name="booking_date" />
+
+            <label>Room Type:</label>
+            <select name="room_type">
+              <option>Deluxe</option>
+              <option>Suite</option>
+              <option>Garden View</option>
+            </select>
+
+            <label>Bed Type:</label>
+            <select name="bed_type">
+              <option>Single Bed</option>
+              <option>Double Bed</option>
+            </select>
+
+            <label>Breakfast:</label>
+            <div class="radio-group">
+              <label><input type="radio" name="breakfast" value="Ya" /> Yes</label>
+              <label><input type="radio" name="breakfast" value="Tidak" /> No</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Payment</legend>
+            <label>Check-In Date:</label>
+            <input type="date" name="checkin" />
+
+            <label>Check-Out Date:</label>
+            <input type="date" name="checkout" />
+
+            <label>Metode Pembayaran:</label>
+            <select name="payment">
+              <option>Cash</option>
+              <option>Credit Card</option>
+              <option>Bank Transfer</option>
+            </select>
+          </fieldset>
+
+          <div class="button-container">
+            <input type="submit" value="Sent Reservation" />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      &copy; 2025 Budi Green House | Elegance in Every Stay 🌿
+    </footer>
+  </body>
+</html>
